@@ -100,27 +100,3 @@ fun FormDataDiri(modifier: Modifier
             Text(text= stringResource(id= R.string.submit))
         }
 
-        Divider(
-            Modifier.padding(bottom = dimensionResource(id= R.dimen.padding_medium), top = dimensionResource(
-                id = R.dimen.padding_medium
-            )),
-            thickness = dimensionResource(id = R.dimen.divider_tipis),
-            color = Color.DarkGray
-        )
-
-        ElevatedCard(
-            elevation = CardDefaults.cardElevation(defaultElevation = 10.dp),
-            colors = CardDefaults.cardColors(containerColor = Color.Black),
-            modifier = Modifier
-                .height(height = 100.dp)
-                .width(width = 300.dp)
-        ) {
-            Column(modifier = Modifier.padding(horizontal = 5.dp, vertical = 15.dp)){
-                Text(text = "Nama   : "+nama, color = Color.White)
-                Text(text = "Gender : "+jenis, color = Color.White)
-                Text(text = "Alamat : "+alamat, color = Color.White)
-            }
-
-        }
-    }
-}
