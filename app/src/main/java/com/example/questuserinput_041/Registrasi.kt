@@ -95,3 +95,5 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
                         modifier = Modifier.fillMaxWidth()
                     )
 
+                    Spacer(Modifier.height(10.dp))
+
