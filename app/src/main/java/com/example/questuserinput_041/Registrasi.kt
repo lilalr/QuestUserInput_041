@@ -144,3 +144,12 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
                             modifier = Modifier.weight(0.7f)
                         )
 
+                        Spacer(modifier = Modifier.width(8.dp))
+
+                        Box(
+                            modifier = Modifier
+                                .width(1.dp)
+                                .height(56.dp)
+                                .background(Color.Gray.copy(alpha = 0.5f))
+                        )
+
