@@ -229,3 +229,26 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
         }
     }
 
+    if (showDialog) {
+        AlertDialog(
+            onDismissRequest = { showDialog = false },
+            confirmButton = {
+                TextButton(onClick = { showDialog = false }) {
+                    Text("OK")
+                }
+            },
+            title = { Text("Berhasil") },
+            text = {
+                Text(
+                    "Nama : $nama\n" +
+                            "Kota : $kota\n" +
+                            "Tanggal Lahir : $tglLahir\n" +
+                            "RT : $rt\n" +
+                            "RW : $rw\n" +
+                            "Umur : $umur\n" +
+                            "Jenis Kelamin : $jenisKelamin"
+                )
+            }
+        )
+    }
+}
