@@ -178,3 +178,23 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
 
                     Text("Jenis Kelamin", fontWeight = FontWeight.Bold)
 
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.Center,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        RadioButton(
+                            selected = jenisKelamin == "Laki-laki",
+                            onClick = { jenisKelamin = "Laki-laki" }
+                        )
+                        Text("Laki-laki")
+
+                        Spacer(modifier = Modifier.width(16.dp))
+
+                        RadioButton(
+                            selected = jenisKelamin == "Perempuan",
+                            onClick = { jenisKelamin = "Perempuan" }
+                        )
+                        Text("Perempuan")
+                    }
+
