@@ -74,3 +74,16 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
                     .fillMaxWidth()
                     .padding(16.dp)
             ) {
+                Column(
+                    modifier = Modifier
+                        .padding(20.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text(
+                        text = "Form Registrasi",
+                        fontSize = 26.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color(0xFF1B1B1B),
+                        modifier = Modifier.padding(bottom = 16.dp)
+                    )
+
