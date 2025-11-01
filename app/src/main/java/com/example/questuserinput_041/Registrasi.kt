@@ -38,3 +38,12 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
     val month = calendar.get(Calendar.MONTH)
     val day = calendar.get(Calendar.DAY_OF_MONTH)
 
+    val datePickerDialog = DatePickerDialog(
+        context,
+        R.style.CustomDatePickerDialog,
+        { _, y, m, d ->
+            tglLahir = "$d/${m + 1}/$y"
+        },
+        year, month, day
+    )
+
