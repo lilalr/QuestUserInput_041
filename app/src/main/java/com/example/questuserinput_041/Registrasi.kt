@@ -59,3 +59,10 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize()
         )
 
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center,
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(24.dp)
+        ) {
