@@ -51,3 +51,11 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
         modifier = Modifier
             .fillMaxSize()
     ) {
+
+        Image(
+            painter = painterResource(id = R.drawable.cat),
+            contentDescription = "Background",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
