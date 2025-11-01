@@ -66,3 +66,11 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
                 .fillMaxSize()
                 .padding(24.dp)
         ) {
+            Card(
+                colors = CardDefaults.cardColors(containerColor = Color.White.copy(alpha = 0.9f)),
+                shape = RoundedCornerShape(24.dp),
+                elevation = CardDefaults.cardElevation(defaultElevation = 8.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp)
+            ) {
