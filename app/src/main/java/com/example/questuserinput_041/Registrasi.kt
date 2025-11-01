@@ -176,3 +176,5 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
 
                     Spacer(Modifier.height(16.dp))
 
+                    Text("Jenis Kelamin", fontWeight = FontWeight.Bold)
+
