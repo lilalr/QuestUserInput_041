@@ -112,3 +112,9 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
                         horizontalArrangement = Arrangement.SpaceBetween,
                         modifier = Modifier.fillMaxWidth()
                     ) {
+
+                        Box(
+                            modifier = Modifier
+                                .weight(1.5f)
+                                .clickable { datePickerDialog.show() }
+                        ) {
