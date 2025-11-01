@@ -21,3 +21,14 @@ import java.util.*
 
 @Composable
 fun FormRegistrasi(modifier: Modifier = Modifier) {
+
+    var nama by remember { mutableStateOf("") }
+    var kota by remember { mutableStateOf("") }
+    var tglLahir by remember { mutableStateOf("") }
+    var rt by remember { mutableStateOf("") }
+    var rw by remember { mutableStateOf("") }
+    var umur by remember { mutableStateOf("") }
+    var jenisKelamin by remember { mutableStateOf("") }
+    var isChecked by remember { mutableStateOf(false) }
+    var showDialog by remember { mutableStateOf(false) }
+
