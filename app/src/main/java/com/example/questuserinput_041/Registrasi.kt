@@ -136,3 +136,11 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
 
                         Spacer(modifier = Modifier.width(8.dp))
 
+                        OutlinedTextField(
+                            value = rt,
+                            onValueChange = { rt = it },
+                            label = { Text("RT") },
+                            shape = RoundedCornerShape(12.dp),
+                            modifier = Modifier.weight(0.7f)
+                        )
+
