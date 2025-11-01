@@ -118,3 +118,20 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
                                 .weight(1.5f)
                                 .clickable { datePickerDialog.show() }
                         ) {
+                            OutlinedTextField(
+                                value = tglLahir,
+                                onValueChange = {},
+                                readOnly = true,
+                                label = { Text("Tanggal Lahir") },
+                                modifier = Modifier.fillMaxWidth(),
+                                enabled = false,
+                                shape = RoundedCornerShape(12.dp),
+                                colors = OutlinedTextFieldDefaults.colors(
+                                    disabledTextColor = MaterialTheme.colorScheme.onSurface,
+                                    disabledBorderColor = MaterialTheme.colorScheme.outline,
+                                    disabledLabelColor = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            )
+                        }
+
+                        S
