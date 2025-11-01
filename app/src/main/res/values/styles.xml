@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomDatePickerDialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">#1B1B1B</item>
+        <item name="android:textColorPrimary">#1B1B1B</item>
+        <item name="android:textColorSecondary">#1B1B1B</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
