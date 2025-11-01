@@ -198,3 +198,16 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
                         Text("Perempuan")
                     }
 
+                    Spacer(Modifier.height(10.dp))
+
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Checkbox(
+                            checked = isChecked,
+                            onCheckedChange = { isChecked = it }
+                        )
+                        Text("Saya setuju dengan syarat dan ketentuan yang berlaku")
+                    }
+
