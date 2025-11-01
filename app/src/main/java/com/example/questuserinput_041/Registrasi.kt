@@ -47,3 +47,7 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
         year, month, day
     )
 
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+    ) {
